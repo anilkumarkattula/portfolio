@@ -1,0 +1,96 @@
+#bg{
+    border: 2px solid rgb(236,240,252);
+    height:  100vh;
+    width: 100%;
+    background-color: rgb(216,219,234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    border: 2px solid rgb(237,241,253);
+    background-color: rgb(237,241,253);
+    height: 80vh;
+    width: 90%;
+    /* box-shadow: 5px 10px rgb(217,221,233); */
+
+}
+#bg>#card>#nav{
+    border: 1px solid rgb(237,241,253);
+    background-color: rgb(237,241,253);
+    
+}
+#bg>#card>#nav>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+#bg>#card>#nav>ul>li{
+    
+    width: 100px;
+    border: 2px solid rgb(237,241,253);
+    height: 15px;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    justify-content: center;  
+}
+a{
+    list-style-type: none;
+    color: black;
+}
+#bg>#card>#nav>ul>li>a:hover{
+    color: red;
+    cursor: pointer;
+}
+#bg>#card>#details{
+    border: 1px solid rgb(237,241,253);
+    height: 90%;
+    width: 100%;
+}
+#bg>#card>#details>#image{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+}
+#bg>#card>#details>#image>img{
+    height: 100%;
+    width: 100%;
+
+}
+#bg>#card>#details>#name{
+    border: 1px solid  rgb(237,241,253);
+    height: 52%;
+    width: 40%;
+    margin-left: 18%;
+    float: left;
+    background-color: rgb(237,241,253);
+    margin-top: 10%;
+    
+}
+#bg>#card>#details>#name>button{
+    background-color: rgb(254,2,61);
+    color: white;
+    font-size: 10px;
+    height: 15%;
+    width: 25%;
+    border: 1px solid rgb(237,241,253);
+    margin-top: 10%;
+}
+#bg>#card>#details>#name>h3{
+
+}
+#bg>#card>#details>#name>h1{
+    
+    
+
+}
+#bg>#links{
+    border: 2px solid black;
+    height: 50px;
+    width: 50%;
+    
+}
+

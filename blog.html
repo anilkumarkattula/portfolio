@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        
+        #main{
+            border: 2px solid black;
+            display: flex;
+        }
+        #sidenav{
+            border: 1px solid black;
+            height: 100vh;
+            width: 15%;
+            background-color: black;
+        }
+        #profile_image{
+            margin-top: 50px;
+            margin-left: 20%;
+            height: 15%;
+            width: 50%;
+            border: 1px solid black;
+        }
+        #profile_image>img{
+            height: 100%;
+            width: 100%;
+            border-radius: 80%;
+        }
+        #main>#sidenav>ul{
+            text-decoration: none;
+        }
+        #main>#sidenav>ul>li{
+            border: 1px solid black;
+            height: 40px;
+            width: 100%;
+            
+
+        }
+        #main>#sidenav>ul>li>a{
+            color: rgb(218, 214, 214);
+            text-decoration: none;
+        }
+        #main>#sidenav>ul>li>a:hover{
+            color: red;
+        }
+        #nameAndLinks{
+            border: 1px solid black;
+            color: white;
+        }
+        #nameAndLinks>h3{
+            margin-left: 20%;
+        }
+        #nameAndLinks>ul{
+           
+            height: 50px;
+            width: 80%;
+            
+            
+            display: flex;
+            justify-content: space-between;
+        }
+        #nameAndLinks>ul>li{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            list-style-type: none;
+            background-color: rgb(33,36,49);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #nameAndLinks>ul>li>a{
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+            
+        }
+        #nameAndLinks>ul>li>a:hover{
+            color: lightblue;
+            
+        }
+        #my_bw_image{
+            border: 1px solid black;
+            height: 100vh;
+            position: relative;
+            width: 85%;
+        }
+        #my_bw_image>img{
+            height: 100%;
+            width: 100%;
+        }
+        #textOnImage{
+            position: absolute;
+            bottom: 50%;
+            left: 15%;
+            color: white;
+            /* transform: translate(-50%, -50%); */
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="sidenav">
+            <div id="profile_image">
+                <img src="./images/about_image.jpg" alt="">
+                
+            </div>
+            <div id="nameAndLinks">
+                <h3>Anil Kumar</h3>
+                <ul>
+                    <li><a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://github.com/anilkumarkattula "><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/anil-kumar-kattula-08a338264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+
+            </div>
+            <ul>
+                <li><a href="./main.html"><span style="height: 50px; width: 50px; margin-right: 10px;"><i class="fa-solid fa-house"></i></span>HOME</a></li>
+                <li><a href="./about.html"><span style="height: 50px; width: 50px; margin-right: 10px;"><i class="fa-regular fa-user"></i></span>ABOUT</a></li>
+                <li><a href=""><span style="height: 50px; width: 50px; margin-right: 10px;"><i class="fa-solid fa-gears"></i></span>SERVICES</a><span style="height: 50px; width: 50px; margin-right: 10px;"><i class="fa-regular fa-user"></i></span></li>
+                <li><a href=""><span style="height: 50px; width: 50px; margin-right: 10px;"><i class="fa-regular fa-file"></i></span>RESUME</a></li>
+                <li><a href=""><span style="height: 50px; width: 50px; margin-right: 10px;"><i class="fa-solid fa-book"></i></span>PROJECTS</a></li>
+                <li><a href=""><span style="height: 50px; width: 50px; margin-right: 10px;"><i class="fa-regular fa-envelope"></i></span>CONTACT</a></li>
+            </ul>
+        </div>
+        <div id="my_bw_image">
+            <img src="./images/my_bw_image.jpg" alt="">
+            <div id="textOnImage"><h1>Anil Kumar kattula</h1>
+            <h3>i'm a web developer</h3>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

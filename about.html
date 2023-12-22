@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        
+        #outer{
+
+            border: 2px solid  rgb(237,241,253);
+            height: 200vh;
+            width: 100%;
+            background-color:  rgb(237,241,253);
+            
+        }
+        #outer>#nav{
+            border: 2px solid  rgb(216,219,234);
+            background-color: rgb(216,219,234);
+
+        }
+        #outer>#nav>ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+        #outer>#nav>ul>li{
+            border: 1px solid  rgb(216,219,234);
+            width: 150px;
+            background-color:  rgb(216,219,234);
+            height: 15px;
+            font-size: 15px;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        #outer>#nav>ul>li>a{
+            text-decoration: none;
+            color: black;
+        }
+        #outer>#nav>ul>li>a:hover{
+            color: red;
+        }
+        #outer>#aboutcard{
+            border: 1px solid  rgb(237,241,253);
+            height: 45%;
+            width: 90%;
+            background-color:  rgb(237,241,253);
+            margin-left: 5%;
+            display: flex;
+            justify-content: center;
+
+        }
+        #outer>#aboutcard>#aboutme{
+            border: 1px solid  rgb(237,241,253);
+            height: 80%;
+            width: 33%;
+            margin-top: 70px;
+            
+        }
+        #outer>#aboutcard>#myimage{
+            border: 1px solid  rgb(237,241,253);
+            height: 80%;
+            width: 33%;
+            margin-top: 20px;
+            
+            
+            
+        }
+        #outer>#aboutcard>#myimage>h1{
+            color:  rgb(113, 126, 137);
+            text-decoration: underline;
+            
+            
+            width: 180px;
+            margin-left: 25%;
+        }
+        #outer>#aboutcard>#myimage>img{
+            height: 80%;
+            width: 70%;
+            border-radius: 50%;
+            margin-left: 15%;
+            
+        }
+        #outer>#aboutcard>h1{
+            background-color: antiquewhite;
+            height: 40px;
+            justify-content: center;
+            
+        }
+        #outer>#aboutcard>#myskills{
+            border: 1px solid  rgb(237,241,253);
+            height: 80%;
+            width: 33%;
+            margin-top: 70px;
+        }
+        #outer>#education_details{
+            border: 1px solid  rgb(237,241,253);
+            height: 45%;
+            width: 90%;
+            background-color:  rgb(237,241,253);
+            margin-left: 5%;
+           
+        }
+        #outer>#education_details>#stmarys{
+            border: 2px solid  rgb(237,241,253);
+            height: 30%;
+            width: 50%;
+            display: flex;
+            margin-top: 7%;
+            margin-left: 10%;
+        }
+        #outer>#education_details>#bec{
+            border: 2px solid  rgb(237,241,253);
+            height: 30%;
+            width: 50%;
+            display: flex;
+            margin-top: 7%;
+            margin-left: 10%;
+        }
+        #outer>#education_details>#stmarys>#st_details{
+            border: 1px solid  rgb(237,241,253);
+            height: 100%;
+            width: 30%;
+
+        }
+        #outer>#education_details>#bec>#bec_details{
+            border: 1px solid  rgb(237,241,253);
+            height: 100%;
+            width: 30%;
+
+        }
+        #outer>#education_details>#stmarys>#st_image{
+            border: 1px solid  rgb(237,241,253);
+            height: 100%;
+            width: 70%;
+        }
+        #outer>#education_details>#stmarys>#st_image>img{
+            border: 1px solid  rgb(237,241,253);
+            height: 100%;
+            width: 100%;
+
+        }
+        #outer>#education_details>#bec>#bec_image{
+            border: 1px solid  rgb(237,241,253);
+            height: 100%;
+            width: 70%;
+
+        }
+        #outer>#education_details>#bec>#bec_image>img{
+            border: 1px solid  rgb(237,241,253);
+            height: 100%;
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="nav">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/portfolio/main.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">RESUME</a></li>
+                <li><a href="./blog.html">BLOG</a></li>
+                <li><a href="">PROJECTS</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <div id="aboutcard">
+            
+            <div id="aboutme">
+                <h1><span style="color: red;">Anil Kumar kattula</span></h1>
+                <p>graduated in the year 2022 with 61% and with specialization in mechanical stream.
+                    being a mechanical student, with my interest went on to learn IT skills and now i'm a 
+                    passionate job seeker looking for an organisation to work with.
+                </p>
+                <h4>Tatachary colony, begumpet, hyderabad, 500016</h4>
+                <h4>+91 9989458471</h4>
+                <h4>anilkumarkattula9491@gmail.com</h4>
+            </div>
+            <div id="myimage">
+                <h1>ABOUT ME</h1>
+                <img src="./images/about_image.jpg" alt="">
+            </div>
+            <div id="myskills">
+                <h2>My Professional Skills</h2>
+            </div>
+        </div>
+        <div id="education_details">
+            <div id="stmarys">
+                <div id="st_details">
+                    <p><span style="color: red;">Location:</span>         GUNTUR</p>
+                    <p><span style="color: red;">degree: </span>          B.Tech</p>
+                    <p><span style="color: red;">stream:</span>           mechanical</p>
+                    <p><span style="color: red;">Year of Pass out:</span> 2022</p>
+                    <p><span style="color: red;">percentage:     </span>  61%</p>
+
+
+                </div>
+                <div id="st_image">
+                    <img src="./images/stmarys.jpg" alt="">
+                </div>
+            </div>
+            <div id="bec">
+                <div id="bec_details">
+                    <p><span style="color: red;">Location:</span>Bapatla</p>
+                    <p><span style="color: red;">degree:</span>  Diploma</p>
+                    <p><span style="color: red;">stream:</span>  Mechanical</p>
+                    <p><span style="color: red;">year of pass out:</span>  2019</p>
+                    <p><span style="color: red;">Percentage:</span>  67%</p>
+                </div>
+                <div id="bec_image">
+                    <img src="./images/bec.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
